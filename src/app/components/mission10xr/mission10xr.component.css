@@ -1,0 +1,518 @@
+
+img {
+    max-width: 100%!important;
+    vertical-align: middle;
+}
+.vc_row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.vc_video-bg-container {
+    position: relative;
+}
+.vc_video-bg {
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+.vc_custom_1548831751896 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 70px !important;
+    padding-bottom: 100px !important;
+
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+.header-main{
+    background: black;
+    position: relative;
+}
+.tex-cen{
+    text-align: center;
+}
+.mar-tb15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bgimage{
+
+    background-size: cover;
+    position: relative;
+}
+.bgposter{
+
+    background-size: cover;
+    opacity: 0.3;
+   
+    height: 680px;
+}
+.bg-img-content{
+    height: 700px;
+}
+.mission-logo h2{
+    padding: 29px 0;
+}
+.mission-logo p{
+    font-size: 16px;
+    color: black;
+    padding: 10px 0;
+}
+.bg-img-content .adver{
+    padding: 50px;
+    position: relative;
+    top: 40px;
+    float: right;
+    width: 900px;
+    margin: 10px;
+}
+.sentence{
+    font-size: 18px;
+    color: black;
+    font-family: sans-serif;
+}
+.bg-img-content .adver p{
+    font-size: 20px;
+    color: black;
+    padding-top: 23px;
+}
+.bg-img-content .buttons{
+    position: absolute;
+    top: 86%;
+    left: 67%;
+}
+.bg-img-content .buttons a:first-child{
+   
+    padding: 6px 40px;
+    position: relative;
+    left: -21px;
+
+}
+.bg-img-content .buttons a:last-child{
+    padding: 5px 50px;
+    margin: 14px;
+}
+.mission-logo{
+    background-color: #abbeb4;
+}
+.con{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.para2{
+    text-align: center;
+    margin-bottom: calc(15px - 15px);
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+    font-size: 18px;
+    vertical-align: top;
+}
+.video-sec{
+    margin:15px;
+}
+.para2 [class*="col-"] {
+  
+    display: inline-block;
+  
+}
+
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 7px 2px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 235px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+/* accordian */
+.additional-info{
+    background-color: #abbeb4;
+}
+
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+  }
+  .accordion__item {
+    position: relative;
+    text-align: left;
+    background: #fff;
+    margin: 1rem 0;
+}
+.accordion__body {
+    color: #283142;
+    padding: 1px 30px 10px 30px;
+    
+}
+.accordion-content{
+    padding: 0px 20px 20px 5px;
+}
+.accordion__body p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+ 
+  .accordion__body p span{
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+
+  }
+ .list-sec ul{
+     padding: 40px;
+     margin: 30px;
+     font-size: 18px;
+ }
+ .list-sec ul li{
+     margin: 20px 0;
+ }
+  .panel {
+    padding: 0 18px;
+ display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .panel ul{
+    padding: 0px 25px;
+    margin: 15px 0px;
+  }
+  .panel ul li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .slider-company{margin:30px 0}
+.slider-company h2{margin-top:-9px;font-size:20px;text-align:center}
+.hero-text{text-align:center;padding-top:212px;margin-bottom:50px}
+.slide{height:80px;box-shadow:0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12)}
+.slide img{width:100%;height:80px}
+
+/* teacher */
+.teacher{
+    background-color: white;
+    height: 689px;
+
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.teacher h3{
+    text-align: center;
+    font-size: 35px;
+    color: #d26f53;
+    margin-right: 0;
+    margin-left: 464px;
+
+}
+.teacher .abt-teacher{
+
+    line-height: 40px;
+    color: #304e68;
+}
+.teacher .abt-teacher p{
+    font-size: 22px;
+    margin: 15px;
+  
+    color: #304e68;
+}
+.posterimg img{
+    width: 58%;
+    height: 390px;
+    position: relative;
+    left: 291px;
+}
+
+
+.set3{
+    position: relative;
+    background-color: white;
+}
+.set3 .posterimg1{
+    width: 70%;
+    height: 550px;
+
+}
+.set3 .content{
+    position: absolute;
+    right: 13px;
+    font-family: cursive;
+    font-size: 19px;
+    top: 50px;
+    line-height: 58px;
+    margin: 4px;
+
+}
+.buy-gift{
+    color: white;
+    background-color: #abbeb4;
+    text-align: center;
+
+
+
+}
+.buy-gift .buttons{    color: white;
+    background-color: #abbeb4;
+    text-align: center;
+    width: 98%;
+    margin-bottom: 34px;
+    margin: 10px;
+    padding: 10px;
+}
+ .buttons a{
+    font-weight: 600;
+    border-radius: 4px;
+    white-space: normal;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+border-radius: 3px;
+padding: 0.8rem 1.875rem;
+}
+/* momentum */
+.momentum{
+    color: white;
+    background-color: #332f2f;
+ text-align: center;
+    padding: 5px;
+}
+.momentum h1{
+padding: 10px;
+
+color: white;
+}
+.momentum h2{
+    color: #d26f53;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-bottom: 16px;
+    margin-top: 16px;
+   
+}
+.momentum h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.momentum .fontsize{
+    font-size: 48px;
+}
+
+.momentum h6{
+    color: fff;
+    padding: 10px;
+}
+.momentum p{
+    font-style: italic;
+    margin: 10px;
+    color: white;
+}
+.momentum .buttons{    color: white;
+    text-align: center;
+    width: 98%;
+    margin-bottom: 34px;
+    margin: 10px;
+    padding: 10px;
+}
+.momentum .buttons a{
+    font-weight: 600;
+    min-width: 200px;
+    margin: 0 20px;
+    border-radius: 4px;
+    white-space: normal;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+border-radius: 3px;
+padding: 0.8rem 1.875rem;
+}
+.purered,.purered:hover{
+    background: red;
+    color: white;
+}
+.red{
+    background: #d26f53 !important;
+    border-color: #d26f53 !important;
+    color: #fff !important;
+
+}
+.blue{
+    background: #304e68 !important;
+    border-color: #304e68 !important;
+    color: #fff !important;
+}
+.red1{
+    color: #d26f53; 
+}
+/* bgsection */
+
+.bgsection{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.bgpic{
+    padding:30px;
+    text-align: center;
+}
+.bgpic .content p{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.content{
+    text-align: center;
+    padding: 43px;
+    margin: 100px 107px 8px 0px;
+
+}
+.mission10xlogo{
+color: red;
+display: inline-block;
+font-size: 60px;
+}
+.mission10xlogo .whi{
+color: white;
+}
+.content-bg h6{
+    color: #affff4;
+    font-size: 18px;
+    margin: 20px 70px;
+    text-align: initial;
+    position: relative;
+    top: -36px;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    font-style: italic;
+}
+.content-bg p{
+    color: white;
+    font-size: 18px;
+    margin:30px 0;
+    position: relative;
+    top: -36px;
+}
+.red-col{
+    color: #f9c711;
+    font-size:28px;
+}
+.content h2{
+    color: #d26f53;
+    font-size: 34px;
+}
+.content h4 i{
+    color: #d26f53;
+
+}
+.content h3{
+    font-size: 31px;
+    color: #304e68;
+    font-family: sans-serif;
+}
+.content .letersp{
+    letter-spacing: 5px;
+}
+.content h4{
+    padding: 6px;
+    margin: 3px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    color: #304e68;
+    font-family: sans-serif;
+}
+
+.cz_quote_info {
+    margin: 20px 30px;
+}
+.cz_quote_info img {
+  
+    display: inline-block;
+    margin-right: 20px;
+    max-width: 200px;
+    vertical-align: middle;
+}
+.cz_quote_info h4 {
+    font-weight: 900;
+    font-size: 20px;
+}
+small {
+    opacity: .8;
+    display: block;
+    font-size: .9em;
+    font-weight: normal;
+    margin: 4px 0 0;
+}
